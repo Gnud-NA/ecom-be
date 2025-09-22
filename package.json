@@ -8,10 +8,10 @@
     "scripts": {
         "prebuild": "rimraf dist",
         "build": "nest build",
-        "build:stg": "NODE_OPTIONS=\"--max_old_space_size=768\" nest build",
+        "build:stg": "NODE_OPTIONS=\"--max_old_space_size=512\" nest build",
         "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
         "start": "nest start",
-        "start:stg": "NODE_OPTIONS=\"--max_old_space_size=768\" nest start",
+        "start:stg": "NODE_OPTIONS=\"--max_old_space_size=512\" nest start",
         "dev": "nest start --watch",
         "start:debug": "nest start --debug --watch",
         "start:prod": "node dist/main",
