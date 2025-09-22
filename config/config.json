@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "username": "dev_user",
+        "password": "RGcdLXKjW3D5sBhC",
+        "database": "dev_db",
+        "host": "127.0.0.1",
+        "port": "15432",
+        "dialect": "postgres"
+    },
+    "stg": {
+        "username": "dev_user",
+        "password": "RGcdLXKjW3D5sBhC",
+        "database": "dev_db",
+        "host": "postgres",
+        "port": "5432",
+        "dialect": "postgres"
+    },
+    "prod": {
+        "username": "remember",
+        "password": "AibndyJsydhOjsY",
+        "database": "remember",
+        "host": "127.0.0.1",
+        "port": "15432",
+        "dialect": "postgres"
+    }
+}

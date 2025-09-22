@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "typescript.preferences.importModuleSpecifier": "non-relative"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "[sql]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false
+    }
+}

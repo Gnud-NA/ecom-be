@@ -1,0 +1,13 @@
+// .sequelizerc
+const path = require('path');
+const dotenv = require("dotenv");
+dotenv.config();
+const process = require('process');
+
+module.exports = {
+    env: process.env.NODE_ENV || "dev",
+//   config: path.resolve('./sequelize-config.ts'), // Đường dẫn đến tệp cấu hình Sequelize CLI TypeScript
+  'migrations-path': path.resolve('./migrations'), // Thư mục chứa các file migration
+  'seeders-path': path.resolve('./seeders'),
+  'models-path': path.resolve('./models'),
+};
